@@ -1,5 +1,4 @@
-1. **Project Title**
-   - **meNote: A Note-Taking Application**
+### **meNote: A Note-Taking Application**
 
 2. **Description**
      ```
