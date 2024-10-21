@@ -5,7 +5,7 @@ interface noteProps {
 	content: string;
 }
 
-const Note: React.FC<NoteProps> = ({ title, content }) => {
+const Note: React.FC<noteProps> = ({ title, content }) => {
 	return (
 		<div className="note">
 			<h2>{title}</h2>
