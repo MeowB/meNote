@@ -1,0 +1,25 @@
+.note {
+	border-radius: 0 10px 10px 0 ;
+	margin: 40px 0;
+	width: 200px;
+	display: block;
+	background-color: #FF7F3E;
+	display: flex;
+
+
+	.aside {
+		background-color: red;
+		width: 24px;
+	}
+
+	h2 {
+		margin: 0;
+		width: 100%;
+		background-color: red;
+		padding: 5px 0;
+	}
+
+	p {
+		padding: 20px;
+	}
+}

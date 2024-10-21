@@ -1,15 +1,19 @@
 import React from "react";
+import noteProps from "../types/noteType";
+import "../styles/note.css";
 
-interface noteProps {
-	title: string;
-	content: string;
-}
 
 const Note: React.FC<noteProps> = ({ title, content }) => {
 	return (
 		<div className="note">
-			<h2>{title}</h2>
-			<p>{content}</p>
+			<div className="aside">
+				<button>edit</button>
+				<button>delete</button>
+			</div>
+			<div className="content">
+				<h2>{title}</h2>
+				<p>{content}</p>
+			</div>
 		</div>
 	);
 };
