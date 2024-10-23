@@ -15,6 +15,10 @@ app.get("/api/notes", (req, res)=> {
 	res.json(notes)
 })
 
+app.put("/api/notes/id", (req, res) => {
+	console.log("hit the edit route on the server")
+})
+
 app.listen(PORT, ()=> {
 	console.log(`Server is running on port ${PORT}`)
 })
